@@ -158,11 +158,11 @@ context = URIRef("https://semopenalex.org/authors/context")
 today = date.today()
 
 ##########
-CPU_THREADS = 16
+CPU_THREADS = 32
 ENTITY_TYPE = 'authors'
 ##########
 
-data_dump_input_root_dir = '/opt/openalex-snapshot'
+data_dump_input_root_dir = '/data/openalex-snapshot'
 data_dump_input_entity_dir = f'{data_dump_input_root_dir}/data/{ENTITY_TYPE}/*'
 
 absolute_path = os.path.dirname(__file__)

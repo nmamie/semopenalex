@@ -1,2 +1,7 @@
 .DS_Store
 semopenalex-app/config/repositories/*
+
+*.parquet
+*.tar
+*.tar.gz
+.license

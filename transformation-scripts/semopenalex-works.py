@@ -208,11 +208,11 @@ has_source_predicate = URIRef("https://semopenalex.org/property/hasSource")
 context = URIRef("https://semopenalex.org/works/context")
 
 ##########
-CPU_THREADS = 16
+CPU_THREADS = 32
 ENTITY_TYPE = 'works'
 ##########
 
-data_dump_input_root_dir = '/opt/openalex-snapshot'
+data_dump_input_root_dir = '/data/openalex-snapshot'
 data_dump_input_entity_dir = f'{data_dump_input_root_dir}/data/{ENTITY_TYPE}/*'
 
 absolute_path = os.path.dirname(__file__)
